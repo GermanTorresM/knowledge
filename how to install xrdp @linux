@@ -1,0 +1,11 @@
+First, update your package index:
+sudo yum -y update
+
+$ sudo yum install -y epel-release
+$ sudo yum install -y xrdp
+$ sudo systemctl enable xrdp
+$ sudo systemctl start xrdp
+
+If you’re using FirewallD, then open port 3389/tcp for RDP:
+$ sudo firewall-cmd --add-port=3389/tcp --permanent
+$ sudo firewall-cmd --reload
