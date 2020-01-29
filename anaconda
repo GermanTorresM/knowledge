@@ -10,6 +10,8 @@ activate Ambiente
 Instalar Tensorflow
 conda install tensorflow
 
+pip install keras
+
 Instalar R
 conda install r-essentials --yes
 
@@ -21,3 +23,9 @@ conda update --all
 
 
 pip install nltk
+
+
+pip install opencv-python
+pip install numpy
+pip install imutils
+
