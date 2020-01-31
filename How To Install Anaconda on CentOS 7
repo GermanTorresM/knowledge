@@ -1,0 +1,44 @@
+Step 1: Download the Latest Anaconda Version
+
+cd /tmp
+
+yum install curl
+
+curl –O https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
+
+Step 2: Verify Anaconda Download Integrity
+
+Once the download finishes, compare the checksum:
+
+sha256sum Anaconda3-2019.10-Linux-x86_64.sh
+
+Step 3: Run Anaconda Installer Script on CentOS
+
+Anaconda uses a bash script to install.
+To install Anaconda on CentOS enter the following:
+
+bash Anaconda3-2019.07-Linux-x86_64.sh
+
+Step 4: Verify Anaconda Installation
+
+To verify a sucessful install of Andaconda, load the path variable:
+
+source ~/.bashrc
+
+This will refresh the path to the conda command, allowing you to run the package from any directory.
+Next, enter the command:
+
+conda info
+
+The system should display information of your sucessful Anaconda installation.
+
+Step 5: Update Anaconda
+
+One quirk of the Anaconda package is that the conda software must be updated before the full Anaconda package is installed. Start by entering the following:
+
+conda update conda
+
+Once the update finishes, update Anaconda by entering the following:
+
+conda update anaconda
+
