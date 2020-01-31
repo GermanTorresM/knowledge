@@ -1,3 +1,9 @@
+1. Descarga e instala R para macOS: https://cran.r-project.org
+
+2. Descarga e instala RStudio: https://www.rstudio.com
+
+
+
 1. Determine la versión de su sistema operativo
 
 En este ejemplo, la versión de OS X es 10.10.5. Esto dictará qué versión de R se descargará en el siguiente paso.
@@ -23,6 +29,19 @@ RStudio sólo está disponible actualmente para Mac OS X 10.6 o superior. Haga c
 
 Una vez finalizada la descarga, busque la versión de RStudio en la carpeta que haya especificado.
 Haga doble clic en el archivo DMG descargado y siga las instrucciones de instalación.
+
+La primera vez que abrimos RStudio nos ofrece instalar las herramientas de XCode para línea de comandos. Aceptamos haciendo clic en instalar.
+
+A continuación instalamos las librerías incluidas en el tidyverse (https://www.tidyverse.org) mediante: install.packages(«tidyverse»)
+
+Tras esto, para poder exportar a PDF cuando usamos rmarkdown (https://rmarkdown.rstudio.com) instalamos la distribución látex MacTex. Podemos descargarla desde: http://www.tug.org/mactex/
+
+Tras completar la instalación en en el menú Session de RStudio hacemos clic en Restart R y probamos si se exporta a PDF correctamente mediante un fichero rmarkdown de ejemplo.
+
+Para ello, hacemos clic en File > New File > R Markdown. Nos ofrecerá instalar las librerías catools y bitops, aceptamos su instalación y creamos el fichero indicando PDF.
+
+Para exportar hacemos clic en knit.
+
 
 
 
