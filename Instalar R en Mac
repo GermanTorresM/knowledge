@@ -1,0 +1,58 @@
+1. Determine la versión de su sistema operativo
+
+En este ejemplo, la versión de OS X es 10.10.5. Esto dictará qué versión de R se descargará en el siguiente paso.
+
+2. Descargue la versión apropiada de RHaga clic en R para Mac OS X.
+
+Verá diferentes opciones para diferentes versiones de OS X. Haga clic en el paquete que corresponda a su versión. Se abrirá el diálogo para guardar el archivo.
+
+3. Instalar R
+
+Haga doble clic en el paquete R descargado (archivo PKG) en la carpeta especificada. A continuación se muestra un ejemplo.
+
+Siga las instrucciones de instalación. No es necesario abrir R después de la instalación completa. RStudio lo hará automáticamente una vez instalado y abierto.
+
+
+
+
+4. Descargar RStudio
+
+RStudio sólo está disponible actualmente para Mac OS X 10.6 o superior. Haga clic en RStudio para Mac OS X 10.6+. Haga clic en el archivo correspondiente a Mac OS X. Esto volverá a abrir el diálogo de guardar archivo. Aquí puedes descargar rstudio para mac.
+
+5. Instalar RStudio
+
+Una vez finalizada la descarga, busque la versión de RStudio en la carpeta que haya especificado.
+Haga doble clic en el archivo DMG descargado y siga las instrucciones de instalación.
+
+
+
+
+6. Descargar MacTeX
+
+MacTeX instala muchas de las cosas necesarias para usar TeX en la composición tipográfica.  Este es un archivo grande y puede tardar cinco minutos (o más, dependiendo de su conexión a Internet) en descargarse.
+
+7. Instalar MacTeX
+
+Encuentra tu versión de MacTeX en la carpeta que has especificado.
+Haga doble clic en el archivo PKG y siga las instrucciones de instalación. No necesita abrir nada después de que MacTeX haya terminado de instalar.
+
+8. Instalar paquetes R útiles en RStudio
+
+Descargue el archivo disponible en startup_packages.R. Este es un archivo de texto (script) que contiene comandos R que usted ejecutará. Haga doble clic en este archivo descargado en el directorio especificado. Esto abrirá el archivo en RStudio. A continuación se muestra sólo el panel superior izquierdo de los cuatro paneles de RStudio y un archivo de script de ejemplo.
+
+Ahora desea ejecutar todo este código para instalar los paquetes listados en la parte superior. Para hacer esto, haga clic en el botón Fuente en la parte superior derecha del panel superior izquierdo (el que tiene este código en él).
+
+Debería ver algo de texto rojo en la pestaña Consola del panel inferior izquierdo de RStudio. El código ha descargado los paquetes especificados y ahora puede utilizarlos en su código según sea necesario.
+
+9. Instalación de prueba
+
+Para comprobar que R, RStudio y TeX se han instalado correctamente, crearemos un documento de Markdown R de muestra. Estos tipos de documentos le darán la habilidad de documentar su código, incluir su código, y también la salida que su código produce.
+
+Seleccione Archivo > Nuevo archivo > R Markdown en el menú de la barra de tareas de RStudio.
+En la pantalla resultante, seleccione Documento a la izquierda y seleccione PDF como Formato de salida predeterminado. (Esto comprobará que MacTeX se ha instalado correctamente.
+
+También puede crear documentos HTML o Word seleccionando aquí el formato de salida apropiado. También puede cambiar de opinión más tarde y crear cualquiera de estos tres formatos (o todos) si así lo desea.)
+
+Esto crea un archivo básico de reducción del precio de R con algunas sugerencias sobre cómo hacer algunas cosas utilizando la reducción del precio de R. Para ver cómo se ve la salida resultante basada en este código, haga clic en el botón Tejer PDF cerca de la parte superior del panel.
+
+Después de darle un nombre al PDF resultante, debe obtener un PDF similar al que se muestra a continuación. El PDF resultante se almacenará en el mismo directorio que el archivo Rmd (R Markdown file) que acaba de crear.
